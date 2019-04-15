@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "build": "tsc",
-    "dev": "npm run build && nodemon ./src/server.ts",
+    "dev": "npm run build && nodemon ./dist/server.ts",
     "start": "npm run build && node ./dist/server.js",
     "prod": "npm run build && npm run start",
     "test": "jest"

@@ -13,8 +13,6 @@ export const SongSchema = new Schema({
         type: String,
         required: 'Enter some Lyrics'
     },
-    createdDate: {
-        type: Date,
-        default: Date.now
-    }
+    chords: { type: String },
+    hasChords: { type: Boolean }
 });
